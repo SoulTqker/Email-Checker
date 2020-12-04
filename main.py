@@ -18,7 +18,7 @@ ans = input("")
 
 def start():
     global code
-    your = input("Enter your email (works only with Hotmail for the moment): ")
+    your = input("\nEnter your email (works only with Hotmail for the moment): ")
     passw = input("Enter the password of the email (this program doesn't register your password) : ")
     target = input("Enter a mail that will receive the verification code : ")
     print("Sending the email...")
