@@ -1,5 +1,5 @@
 # Email-Checker
-This is my email checker (python version) that you can have in the process of email verification
+This is the email checker (python version) that you can have in the process of email verification from the Wati-Dev
 
 So to make this program work you just have to download the main.py file and run it with python
 
