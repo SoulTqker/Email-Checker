@@ -46,8 +46,12 @@ def start():
 def verify():
     a = input("\nYou will receive a email in about less than 1 min, please write the code here :")
     while a != code:
+        print("Verification...")
+        sleep(2)
         print("\n\nPassword not accepted, please retry : ")
         a = input("")
+    print("Verification...")
+    sleep(2)
     return print("\n\nPassword accepted, thank you for using the Email Checker 9000")
 
 if ans in ["Yes", "yes", "Y", "y"]:
